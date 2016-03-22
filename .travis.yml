@@ -6,7 +6,7 @@ before_install:
   - go get github.com/tcnksm/ghr
 script:
   - make
-  - if [ -n "$TRAVIS_TAG" ]; then $GOPATH/bin/ghr -u kmc-jp $TRAVIS_TAG release; fi
+  - if [ -n "$TRAVIS_TAG" ]; then $GOPATH/bin/ghr -u kmc-jp --replace $TRAVIS_TAG release; fi
 env:
   global:
     - GOPATH=~/.go
