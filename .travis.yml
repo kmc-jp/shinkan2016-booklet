@@ -6,7 +6,7 @@ before_install:
   pandoc golang
 - go get github.com/tcnksm/ghr
 script:
-- make main.pdf
+- make
 - if [ -n "$TRAVIS_TAG" ]; then ghr -u kmc-jp $TRAVIS_TAG release; fi
 env:
   secure: FwZn9HHmmCbq1E/KkAYxe1XPIEyLh5yhC0OLKQU+0H4GMg67RlRvnjlkpZQyXAr09xnj6MhWujEO+/BtUiIrC+ijgHrKAESoXWX3n14HBtJfRyPYY3ojTWyUEpkSd9wnKt18/UBhzslX09/uDBtIxgYn+aVMaXtY97TBGmFh4Kdbovy84UjSw3LDPMaXwxrKeh4ul014eS1Fi2x5G9EtWflbDBFpJOS98K6VWCPXjys7hcqBo8LpzDzd2IRlZowWVU4Ee8CidA3ryowS+C2J9xDKMi7+eZn8rDPX5lNaVtmHkS3p8sBli+Dn3TWn7mac9ghzsd70Y2r7SFeJCMeCMBpoBXiJFdijKFo9+USOZ0vKjfIr+rU8yrAcr+8yHu/HcTUtBm9v++2+QiSkGaX3d8Z934pxVh4AGceLEneW69rIF9hL3fJUsKjMYlHINZix2UnnzAWwaQAuawtY0002dkirTbYhZ42sRJOSeiITO++Kl3748Ywu1vGM7o6I1H7SL/Y3oeJPvdEbjJNEhV3TXdDHUW9qdx+da5CxO/YVG5ca+SJIoM3uGtK1V2iVWSrz8s1CvmyFWIkQv5M6RfhWJhGMs5UuhcHk88tTfRSgQaf+QYPKXnaJtx5EF82DcvE0K6/TzfrTsKg1/I/vh1i7FqROQNjjg2Z/e7YSir4bUKw=
