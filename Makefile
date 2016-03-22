@@ -4,9 +4,10 @@ sourcetex := $(sourcemd:md/%.md=tex/%.tex)
 tex/%.tex: md/%.md
 	pandoc $< -o $@
 
-main.pdf: main.tex $(sourcetex)
-	lualatex main.tex
+release/main.pdf: main.tex $(sourcetex)
+	mkdir -p release
+	lualatex  --output-directory=release main.tex
 
 .PHONY: clean
 clean:
-	rm -f main.pdf main.log main.aux tex/*
+	rm -f release/* tex/*
