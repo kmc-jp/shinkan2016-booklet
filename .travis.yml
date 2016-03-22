@@ -2,6 +2,6 @@ sudo: required
 dist: trusty
 language: c
 before_install:
-  - sudo apt-get -y install texlive-luatex texlive-lang-cjk lmodern texlive-xetex make
+  - sudo apt-get -y install texlive-luatex texlive-lang-cjk lmodern texlive-xetex make pandoc
 script:
   - make main.pdf
