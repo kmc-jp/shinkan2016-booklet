@@ -1,10 +1,15 @@
 \documentclass[b5paper]{ltjsarticle}
 
-\usepackage[ipa]{luatexja-preset}
-\usepackage{graphicx}
-\usepackage{wallpaper}
+\usepackage[ipa]{luatexja-preset} %% 日本語フォント
+\usepackage{graphicx} %% 画像挿入
+\usepackage{wallpaper} %% 背景画像
+\usepackage{fancyhdr} %% ページ飾り
 
 \begin{document}
+\pagestyle{fancy}
+\chead{KMC新勧説明冊子2016}
+\cfoot{\thepage}
+
 \input{./tex/cover} %% 表紙
 \input{./tex/intro} %% KMCとは
 \input{./tex/projects} %% プロジェクト紹介
