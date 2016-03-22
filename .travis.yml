@@ -1,5 +1,7 @@
+sudo: required
+dist: trusty
 language: c
 before_install:
-  - sudo apt-get install texlive-luatex texlive-lang-japanese lmodern texlive-xetex make
+  - apt-get install texlive-luatex texlive-lang-cjk lmodern texlive-xetex make
 script:
   - make main.pdf:
