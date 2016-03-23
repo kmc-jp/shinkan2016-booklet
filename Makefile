@@ -6,6 +6,7 @@ tex/%.tex: md/%.md
 
 release/main.pdf: main.tex $(sourcetex)
 	mkdir -p release
+	lualatex --interaction=nonstopmode --output-directory=release main.tex &&\
 	lualatex --interaction=nonstopmode --output-directory=release main.tex
 
 .PHONY: clean
