@@ -1,5 +1,5 @@
 \begin{titlepage}
-\ThisCenterWallPaper{0.9}{./image/cover.png}
+\ThisCenterWallPaper{0.95}{./image/cover.png}
 \title{}
 \date{}
 \author{}
