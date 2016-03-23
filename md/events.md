@@ -6,6 +6,8 @@
 ## ラピッドコーディング祭り
 delegate qlarne
 
+\floatimage{./image/compa2014.png}
+
 ## 新歓コンパ
 KMCの新入生を歓迎するコンパです。もちろん新入生は無料！5月末に開催予定です。
 
@@ -27,6 +29,9 @@ KMCでは部誌とゲームCDを頒布しています。
 delegate hnagamin
 
 ## 合宿
+
+\floatimage{./image/harugass2014.png}
+
 ### 春合宿
 3月, 一年の終わりに行われる数日の講座合宿です。
 京都の山奥で部員が朝から夕方まで講座を行います。

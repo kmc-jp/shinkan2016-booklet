@@ -21,10 +21,10 @@
 ## メール
 info@kmc.gr.jp
 
+\floatimage{./image/lineQR.png}
+
 ## Line@
 友達追加→ID検索→「@kmc.jp」と入力
 
-または下のQRコードを読取
-
-TODO
+または右のQRコードを読取
 

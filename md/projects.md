@@ -5,6 +5,8 @@
 
 NF, コミケに向けて作るものが主となっています。
 
+\floatimage{./image/SuperMarket.png}
+
 ### 八ツ橋シューティング
 八ツ橋が駆ける!!シンプルな縦STG。
 
