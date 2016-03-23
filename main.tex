@@ -2,10 +2,17 @@
 
 \usepackage[ipa]{luatexja-preset} %% 日本語フォント
 \usepackage{graphicx} %% 画像挿入
+\usepackage{wrapfig} %% 画像回り込み
 \usepackage{wallpaper} %% 背景画像
 \usepackage{fancyhdr} %% ページ飾り
 
 \setcounter{secnumdepth}{1} %% 見出し数字削減
+
+\newcommand{\floatimage}[1]{ %% 右回り込み画像
+\begin{wrapfigure}[6]{r}[0cm]{4cm}
+  \includegraphics[keepaspectratio,width=4cm]{#1}
+\end{wrapfigure}
+}
 
 \begin{document}
 
