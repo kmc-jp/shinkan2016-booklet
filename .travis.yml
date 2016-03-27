@@ -7,6 +7,7 @@ before_install:
 script:
   - make
   - if [ -n "$TRAVIS_TAG" ]; then $GOPATH/bin/ghr -u kmc-jp --replace $TRAVIS_TAG release; fi
+  - if [ $TRAVIS_BRANCH = "master" ]; then git tag -f latest; then $GOPATH/bin/ghr -u kmc-jp --replace latest release; fi
 env:
   global:
     - GOPATH=~/.go
