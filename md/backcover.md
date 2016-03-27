@@ -1,8 +1,4 @@
-\begin{titlepage}
+\mbox{}\newpage\mbox{}
 \ThisCenterWallPaper{0.95}{./image/backcover.png}
-\title{}
-\date{}
-\author{}
-\maketitle
 \thispagestyle{empty}
-\end{titlepage}
+
