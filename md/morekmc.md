@@ -18,11 +18,12 @@
 ## twitter
 @KMC_JP
 
+\floatimage{./image/lineQR.png}
+
 ## メール
 info@kmc.gr.jp
 
 ## Line@
-\floatimage{./image/lineQR.png}
 
 友達追加→ID検索→「@kmc.jp」と入力
 
