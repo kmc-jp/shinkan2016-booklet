@@ -6,4 +6,3 @@
 \maketitle
 \thispagestyle{empty}
 \end{titlepage}
-%%
