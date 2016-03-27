@@ -41,7 +41,7 @@ TODO 日程
 ## 競技プログラミング練習会2016 Normal
 ## みんなでゲームを作る2016
 ## お絵描きプログラミング勉強会2016
-\floatimage{./piet.png}
+\floatimage{./image/piet.png}
 
 ### 担当者
 工学部情報学科 ID : base64
