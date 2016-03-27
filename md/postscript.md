@@ -1,6 +1,6 @@
 \newpage
 
-## あとがき
+# あとがき
 この冊子はgithub上で公開されています
 
 https://github.com/kmc-jp/shinkan2016-booklet
