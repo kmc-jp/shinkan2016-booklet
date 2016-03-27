@@ -16,6 +16,8 @@ Microcomputerが個人用のコンピュータを指していた時代(1977年)�
 
 など, 広い分野で活動しています。
 
+\newpage
+
 ## 日常の活動
 
 \floatimage{./image/bushitsu.png}
