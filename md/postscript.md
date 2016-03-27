@@ -1,5 +1,4 @@
-# あとがき
-新勧冊子担当のID:wass80です。
+\newpage
 
 ## 表紙絵・裏表紙絵
 ID:rmasaki
