@@ -1,3 +1,5 @@
+\newpage
+
 # 新入生プロジェクト
 
 \floatimage{./image/hyakumanben.png}
